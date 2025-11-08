@@ -1,0 +1,21 @@
+credentials:
+  usernames: 
+    milton:
+      name: Milton
+      password: seculo21
+      logged_in: False
+      email: milton@gmail.com
+    thiagoscav:
+      email: thiago@gmail.com
+      logged_in: False
+      name: Thiago Scavazzani
+      password: sec123
+    jessyscav:
+      email: jessyscavazzani@gmail.com
+      logged_in: False
+      name: Jessyca Scavazzani
+      password: sec123
+cookie:
+  expiry_days: 1
+  key: some_signature_key
+  name: some_cookie_name
