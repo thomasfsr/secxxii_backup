@@ -18,7 +18,7 @@ def app():
     clientes = clientes.sort_index(ascending=False)
     st.subheader('Cadastrar Nova Comanda :memo:')
 
-    c1, c2, c3 = st.columns([1,1,2])
+    c1, c2, _ = st.columns([1,1,2])
     #Cadastrar cliente novo? 
     with c1:
         with st.popover('**:blue[Cadastrar Novo Cliente?]** :woman-raising-hand:'):
@@ -69,7 +69,7 @@ def app():
     
     servico_input = st.text_input('Descrição do Serviço:',placeholder="Digite o serviço a ser prestado aqui")
 
-    s11, s12, s13, s14 = st.columns([2,2,2,2])
+    s11, s12, s13, _ = st.columns([2,2,2,2])
     with s11:
         data_entrada_input_dt = st.date_input('Data de Entrada:', format='DD/MM/YYYY')
         data_entrada_input = data_entrada_input_dt.strftime('%d-%m-%Y')
