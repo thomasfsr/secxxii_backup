@@ -78,7 +78,7 @@ class Comanda_text:
         duv= doc.add_paragraph()
         duv.add_run('Dúvidas e informações').italic=True
 
-        doc.add_paragraph('(13) 99210-1642')
+        doc.add_paragraph('(13) 99150-1218')
 
         #os.makedirs('data/docs',exist_ok=True)
         #doc.save(f'data/docs/comanda_{self.cliente[0]}_{self.comanda_id}.docx')
